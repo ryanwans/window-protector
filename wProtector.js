@@ -205,8 +205,11 @@
     !function() {
         if(!o.jQuery) {
             _n("Having jQuery greatly increases performance of this plugin.");
+        } else {
+            $(document).ready(function() {
+                pushDOMWatcher();
+            })
         }
-        pushDOMWatcher();
         _n("wProtector has fully rendered and initialized (t_code="+Date.now()+")");
     }();
 });
