@@ -2,7 +2,7 @@
 Protect your page.
 
 ## General Usage
-<b>Ensure the file is properly loaded as a CDN on your page</b>
+<b>Ensure the file is properly loaded as a script on your page</b>
 <br><br>
 Create a new Protector object.<br>
 `var Protector = new Protector(function(json){
